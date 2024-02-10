@@ -2,5 +2,6 @@
     background-color: red;
 }
 img{
-    margin: 10px;
+    width: 60%;
+    max-height: 40%;
 }
