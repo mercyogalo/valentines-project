@@ -1,6 +1,5 @@
 .body{
     background-color: red;
-    margin: 20px;
 }
 img{
     display: block;
@@ -10,11 +9,11 @@ img{
 }
 main{
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .heading{
     margin-top: 20px;
-    margin-bottom: 5px;
 }
 .heading h1{
         font-family: "Alex Brush", cursive;
