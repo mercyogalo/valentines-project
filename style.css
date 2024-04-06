@@ -23,4 +23,5 @@ button:hover{
     color: black;
     border: none;
     background-color: red;
+    text-transform: uppercase;
 }
