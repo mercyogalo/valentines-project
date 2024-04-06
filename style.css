@@ -18,11 +18,12 @@ border-radius: 20px;
 padding: 10px;
 border-color: red;
 opacity: 0.7;
+transition: all 200ms ease-in-out;
 }
 button:hover{
     cursor: pointer;
     color: black;
-    border: none;
+    border-color: white;
     background-color: red;
     text-transform: uppercase;
 }
