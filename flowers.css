@@ -1,5 +1,18 @@
 img{
-    width: 20%;
-    height: 10%;
+    width: 50%;
+    height: 40%;
     border: 1px solid white;
+}
+button{
+    border: 1px solid red;
+    padding: 6px;
+    color: red;
+    background-color: white;
+    text-align: center;
+    display: block;
+    
+}
+.images{
+    display: flex;
+ justify-content: space-between;
 }
