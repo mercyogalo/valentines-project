@@ -1,16 +1,26 @@
 img{
-    width: 50%;
-    height: 40%;
+    width: 60%;
+    height: 45%;
     border: 1px solid white;
 }
-button{
+.price{
     border: 1px solid red;
     padding: 6px;
     color: red;
     background-color: white;
     text-align: center;
     display: block;
-    
+    margin-left: 18%;
+    margin-bottom: 3px;
+}
+.order{
+    border: 1px solid red;
+    padding: 6px;
+    color: red;
+    background-color: white;
+    text-align: center;
+    display: block;
+    margin-left: 16%;
 }
 .images{
     display: flex;
