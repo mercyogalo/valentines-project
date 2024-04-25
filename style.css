@@ -50,12 +50,7 @@ div p{
     opacity: 0.8;
     color: white;
 }
-.logIn{
-    display: flex;
-    justify-content: end;
-}
 
-  
   .text{
     color: white;
     font-size: 50px;
