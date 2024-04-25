@@ -41,11 +41,7 @@ button:hover{
     display: flex;
     justify-content: space-evenly;
 }
-#section2{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 10px;
-}
+
 div p{
         font-family: "Great Vibes", cursive;
         font-weight: 400;
@@ -53,6 +49,10 @@ div p{
     font-size: 40px;
     opacity: 0.8;
     color: white;
+}
+.logIn{
+    display: flex;
+    justify-content: end;
 }
 
   
