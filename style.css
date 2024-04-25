@@ -5,8 +5,8 @@ img{
     margin: 5px;
     border-radius: 5px;
     border: 1px solid grey;
-    width: 20%;
-    height: 10%;
+    width: 80%;
+    height: 70%;
 }
 main{
     margin-top: 20px;
@@ -64,10 +64,9 @@ div p{
     text-align: center;
     position: relative;
   }
-#images{
+.sampleImages{
     display: flex;
 justify-content: space-between;
-max-width: 80%;
 margin-left: 2px;
 margin-right: 2px;
 }
