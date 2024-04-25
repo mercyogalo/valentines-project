@@ -6,7 +6,7 @@ img{
     border-radius: 5px;
     border: 1px solid grey;
     width: 80%;
-    height: 70%;
+    height: 90%;
 }
 main{
     margin-top: 20px;
@@ -26,8 +26,7 @@ main{
 }
 button{
 color: red;
-border-radius: 20px;
-padding: 10px;
+padding: 10px 20px;
 border-color: red;
 opacity: 0.7;
 transition: all 200ms ease-in-out;
@@ -37,7 +36,6 @@ button:hover{
     color: black;
     border: 1px solid white;
     background-color: red;
-    text-transform: uppercase;
 }
 #topHeading{
     display: flex;
