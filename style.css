@@ -42,7 +42,7 @@ button:hover{
     justify-content: space-evenly;
 }
 
-div p{
+.intro p{
         font-family: "Great Vibes", cursive;
         font-weight: 400;
         font-style: normal;      
@@ -79,7 +79,9 @@ margin-right: 2px;
     text-align: center;
 }
 .moreInfo p{
-    font-size: 25px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 15px;
 }
 .entypo-social--facebook-with-circle {
     display: inline-block;
@@ -129,4 +131,8 @@ margin-right: 2px;
 }
 li{
     margin: 10px;
+}
+.name{
+    text-align: center;
+    font-size: 10px;
 }
