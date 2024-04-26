@@ -32,6 +32,15 @@ form{
   margin-top: 20px;
   margin-bottom: 10px;
 }
+
+#submitButton{
+border: 1px solid white;
+border-radius: 50px;
+padding: 10px;
+margin-bottom: 5px;
+color: black;
+background-color: red;
+}
 .body{
   margin-top: 4px;
   margin-bottom: 20px;
