@@ -66,22 +66,12 @@ margin-right: 2px;
 .contact{
     text-align: center;
 }
-.companyInfo{
+.about-slide{
     display: flex;
-    justify-content: space-evenly;
-}
-.moreInfo{
-    border: 2px solid white;
-    border-radius: 40px;
-    margin: 20px;
+    justify-content: space-between;
 }
 .moreInfo h2{
     text-align: center;
-}
-.moreInfo p{
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 15px;
 }
 .entypo-social--facebook-with-circle {
     display: inline-block;
