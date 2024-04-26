@@ -66,3 +66,18 @@ margin-right: 2px;
 .contact{
     text-align: center;
 }
+.companyInfo{
+    display: flex;
+    justify-content: space-evenly;
+}
+.moreInfo{
+    border: 2px solid white;
+    border-radius: 30px;
+    margin: 10px;
+}
+.moreInfo h2{
+    text-align: center;
+}
+.moreInfo p{
+    font-size: 25px;
+}
