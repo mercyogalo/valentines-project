@@ -26,3 +26,6 @@ img{
     display: flex;
  justify-content: space-between;
 }
+.body{
+   margin: 5px;
+}
