@@ -4,7 +4,7 @@
 img{
     margin: 5px;
     border-radius: 5px;
-    border: 1px solid grey;
+    border: 2px solid white;
     width: 80%;
     height: 90%;
 }
@@ -68,10 +68,32 @@ margin-right: 2px;
 }
 .about-slide{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    width: 98%;
+height: 300px;
+margin-left: 10px;
+margin-right: 10px;
+}
+.company-about{
+  border: none;
+  background-color: #DC6B19;
+  font-size: 50px;
+  width: 50%;
+}
+.companyInfo{
+  border:10px solid #DC6B19;
+width: 50%;
+margin-right: 10px;
+}
+.moreInfo{
+margin-right: 5px;
 }
 .moreInfo h2{
     text-align: center;
+}
+.moreInfo p{
+  color: #DC6B19;
+  text-align: justify;
 }
 .entypo-social--facebook-with-circle {
     display: inline-block;
