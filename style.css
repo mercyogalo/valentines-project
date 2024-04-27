@@ -1,7 +1,7 @@
 .body{
     background-color: #6C0345;
 }
-img{
+.sampleImages img{
     margin: 5px;
     border-radius: 5px;
     border: 2px solid white;
@@ -175,5 +175,25 @@ ul{
 .review-info{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 10px;
+}
+.sample p{
+  font-size: 15px;
+}
+.sample img{
+  border:1px solid #6C0345;
+  border-radius: 50%;
+
+}
+.reviewer-image{
+  height: 20%;
+  display: block;
+  margin: 0 auto;
+}
+.sample{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.sample h2{
+  font-size: small;
+  text-align: center;
 }
