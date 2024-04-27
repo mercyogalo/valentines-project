@@ -1,6 +1,10 @@
 .body{
     background-color: #6C0345;
 }
+.sampleImages{
+  width: 100%;
+  height: 80%;
+}
 .sampleImages img{
     margin: 5px;
     border-radius: 5px;
