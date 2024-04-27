@@ -25,6 +25,7 @@ img{
 .images{
     display: flex;
  justify-content: space-between;
+ width: 100%;
 }
 .body{
    margin: 5px;
