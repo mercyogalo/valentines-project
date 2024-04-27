@@ -15,6 +15,7 @@
 main{
     margin-top: 20px;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .heading{
@@ -179,6 +180,8 @@ ul{
 .review-info{
   display: flex;
   justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
 }
 .sample p{
   font-size: 15px;
