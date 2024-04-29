@@ -179,8 +179,7 @@ ul{
 }
 .review-info{
   display: flex;
-  justify-content: space-between;
-  width: 100%;
+  justify-content: space-evenly;
   margin-bottom: 10px;
 }
 .sample p{
@@ -203,4 +202,10 @@ ul{
 .sample h2{
   font-size: small;
   text-align: center;
+}
+a{
+  text-decoration: none;
+}
+a:visited{
+  color: #6C0345;
 }
