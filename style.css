@@ -1,11 +1,13 @@
 :root{
   --secondary-color:#6C0345;
   --primary-color:#DC6B19;
+  --normal-font-familly:font-family: "Poppins", sans-serif;
 }
 
 .body{
 background-color:white;
 border: 10px solid var(--secondary-color);
+font-family: var(--normal-font-familly);
 }
 .image-styling{
   height:4px;
@@ -16,6 +18,9 @@ border: 10px solid var(--secondary-color);
 }
 .reviewer-text{
   font-size: 10px;
+  font-family: var(--normal-font-familly);
+  font-weight: bolder;
+  
 }
 .about-section{
   background-color: var(--primary-color);
@@ -30,27 +35,29 @@ border: 10px solid var(--secondary-color);
 .contact-section{
   background-color: var(--secondary-color);
 }
-.nav-styling{
-  border: 5px solid var(--secondary-color);
+
+.name{
+  font-family: "Playfair Display", serif;
+  font-weight: 900px;
+  font-style: italic;
+font-size: 100px;
+color: var(--secondary-color);
 }
 
-
-
-
-
-
-
-
-
- 
-
+.heading{
+  font-size: 50px;
+  font-family: "Playfair Display", serif;
+  color: var(--secondary-color);
+}
 li{
     margin: 10px;
 }
 ul{
   list-style-type: none;
 }
-
+.bg-warning{
+  background-color: var(--primary-color) !important;
+}
 
 .material-symbols-light--stars-outline {
   display: inline-block;
@@ -60,4 +67,11 @@ ul{
   background-size: 100% 100%;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='m8.5 17.27l3.5-2.666l3.5 2.665l-1.308-4.334l3.481-2.466h-4.265L12 5.923l-1.408 4.546H6.327l3.48 2.466zM12.003 21q-1.866 0-3.51-.708q-1.643-.709-2.859-1.924t-1.925-2.856T3 12.003t.708-3.51t1.924-2.859t2.856-1.925T11.997 3t3.51.708t2.859 1.924t1.925 2.856t.709 3.509t-.708 3.51t-1.924 2.859t-2.856 1.925t-3.509.709M12 20q3.35 0 5.675-2.325T20 12t-2.325-5.675T12 4T6.325 6.325T4 12t2.325 5.675T12 20m0-8'/%3E%3C/svg%3E");
 }
-
+@media (max-width: 576px) {
+  h1{
+    font-size:60px ;
+  }
+  .heading{
+    font-size: 30px;
+  }
+}
