@@ -58,10 +58,13 @@ li{
 ul{
   list-style-type: none;
 }
-.bg-warning{
-  background-color: var(--primary-color) !important;
-}
 
+.btn-warning{
+  background-color: #DC6B19 !important;
+}
+.bg-color{
+  background-color: #DC6B19 !important;
+}
 .material-symbols-light--stars-outline {
   display: inline-block;
   width: 30px;
