@@ -49,6 +49,9 @@ color: var(--secondary-color);
   font-family: "Playfair Display", serif;
   color: var(--secondary-color);
 }
+.contact-heading{
+  font-family:"Playfair Display", serif;;
+}
 li{
     margin: 10px;
 }
@@ -69,9 +72,12 @@ ul{
 }
 @media (max-width: 576px) {
   h1{
-    font-size:60px ;
+    font-size:40px ;
   }
   .heading{
-    font-size: 30px;
+    font-size: 20px;
+  }
+  .moreInfo p{
+    font-size: 12px;
   }
 }
