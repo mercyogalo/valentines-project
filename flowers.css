@@ -1,32 +1,5 @@
-img{
-    width: 50%;
-    height: 70%;
-    border: 1px solid white;
-}
-.price{
-    border: 1px solid red;
-    padding: 6px;
-    color: red;
-    background-color: white;
-    text-align: center;
-    display: block;
-    margin-left: 18%;
-    margin-bottom: 3px;
-}
-.order{
-    border: 1px solid red;
-    padding: 6px;
-    color: red;
-    background-color: white;
-    text-align: center;
-    display: block;
-    margin-left: 16%;
-}
-.images{
-    display: flex;
- justify-content: space-between;
- width: 100%;
-}
+
+
 .body{
    margin: 5px;
 }
