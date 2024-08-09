@@ -16,6 +16,9 @@ font-family: var(--normal-font-familly);
 .reviewer-name{
   font-size: 15px;
 }
+.main-image{
+  height: 40px;
+}
 .reviewer-text{
   font-size: 10px;
   font-family: var(--normal-font-familly);
